@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InPost</title>
+  <link rel="stylesheet" href="./generatePost.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body oncontextmenu="return false">
+  <nav>
+    <h1 class="logo"><a href="./index.html">InPost</a></h1>
+    <div class="utils">
+      <ul>
+        <li>
+          <div class="button plus">
+            <div class="button-wrapper">
+              <div class="text">Plus</div>
+              <span class="icon">
+                <i class="fa-solid fa-plus"></i>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="button minus">
+            <div class="button-wrapper">
+              <div class="text">Minus</div>
+              <span class="icon">
+                <i class="fa-solid fa-minus"></i>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="button copy">
+            <div class="button-wrapper">
+              <div class="text">Copy</div>
+              <span class="icon">
+                <i class="fa-solid fa-copy"></i>
+              </span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="left">
+      <div class="section-1">
+        <div class="btn ai active">
+          <div class="btn-set"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <div class="btn-text ai-text">AI</div>
+        </div>
+        <div class="btn random ">
+          <div class="btn-set"><i class="fa-solid fa-shuffle"></i></div>
+          <div class="btn-text random-text">Random</div>
+        </div>
+        <div class="btn advanced ">
+          <div class="btn-set"><i class="fa-solid fa-clock"></i></div>
+          <div class="btn-text advanced-text">Advanced</div>
+        </div>
+
+      </div>
+      <div class="section-2">
+        <div class="heading">
+          <div class="heading-icon"></div>
+          <div class="title"></div>
+        </div>
+        <div class="btn-info">
+          <p> </p>
+        </div>
+        <div class="section2Form">
+
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="post-container">
+        <div class="userInfoBar">
+          <div class="bar-left">
+            <div class="userImg"></div>
+            <div class="userName">John Doe <br> <span>@ LinkedIn</span></div>
+          </div>
+          <div class="bar-right">
+            <div class="userFollow"><i class="fa-solid fa-plus"></i> &nbsp;Follow</div>
+          </div>
+
+        </div>
+        <div class="userPostContent">
+          <div class="userTextContent">Your post content . . . . </div>
+        </div>
+        <div class="likeComment"><i class="fa-solid fa-thumbs-up"></i> &nbsp;<i class="fa-solid fa-heart"></i></div>
+        <div class="likeCommentBar">
+          <i class="fa-regular fa-thumbs-up"></i>
+          <i class="fa-regular fa-comment"></i>
+          <i class="fa-solid fa-repeat"></i>
+          <i class="fa-solid fa-paper-plane"></i>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="./generatePost.js"></script>
+</body>
+
+</html>
