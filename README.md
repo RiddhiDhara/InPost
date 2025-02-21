@@ -31,8 +31,7 @@ cd InPost
 
 ## 🛠 Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript (or React, if applicable)
-- **Backend:** Node.js (if applicable)
+- **Frontend:** HTML, CSS, JavaScript
 - **APIs:**
   - 🌐 [Gemini API](https://gemini.com/) for post generation
   - 📧 [EmailJS](https://www.emailjs.com/) for automated email delivery
@@ -46,15 +45,11 @@ Contributions are welcome! If you'd like to improve InPost, follow these steps:
 3. 💾 Commit your changes.
 4. 📤 Push to your branch and submit a pull request.
 
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
 ## 📬 Contact
 
 For any questions or feedback, feel free to reach out!
 
-### Note 
+## ✨ Note 
 
 Use your own API keys and variables for Gemini-API and emailJs credentials
 
